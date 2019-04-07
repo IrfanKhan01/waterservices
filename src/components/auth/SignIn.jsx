@@ -30,8 +30,8 @@ class SignIn extends Component {
       <div className='container'>
         <form onSubmit={this.handleSubmit}>
             <div className="row" style={{height:'80vh', display:'flex', flexDirection:'row', alignItems:'center'}}>
-                <div className="col m2"></div>
-                <div className="col m8 card">
+                <div className="col m4"></div>
+                <div className="col m6 card">
                     {/* <h5 className='grey-text text-darken-3 card-title' style={{backgroundColor:'f0f0f0'}} >Sign In</h5> */}
                     <div className="card-content">
                         <span className='card-title center'>Sign in</span>
@@ -54,7 +54,7 @@ class SignIn extends Component {
                 <div className="red-text center">
                     {authError ? <p>{authError}</p> : null}
                 </div>
-                <div className="col m2"></div>
+                <div className="col m4"></div>
             </div>
         </form>
       </div>
