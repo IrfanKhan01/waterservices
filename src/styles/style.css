@@ -1,0 +1,27 @@
+
+
+
+.row {
+    margin-bottom: 0px !important;
+}
+
+input {
+    margin-bottom: 0px !important;
+}
+
+.border {
+    /* width: "100%"; */
+    /* padding: 5px 60% 5px 5px; */
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px
+}
+
+.border-bottom {
+    margin-top: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.line-height {
+    margin: 0px !important;
+}
